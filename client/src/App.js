@@ -1,9 +1,12 @@
 
 import './App.css';
+import Login from './components/Authentication/Login';
 
 function App() {
   return (
-   <h4>Appoint Systems</h4>
+   <>
+   <Login />
+   </>
   );
 }
 
